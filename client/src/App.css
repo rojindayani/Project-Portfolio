@@ -12,7 +12,8 @@
 .home{
   font-size: 32px;
   color: white;
-  background-color:cadetblue;
+  margin: 0 40px;
+  padding-bottom: 20vh;
 }
 .aboutMe{
   color: chocolate;
