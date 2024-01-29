@@ -1,3 +1,8 @@
+*{
+  text-align: center;
+  justify-content: center;
+}
+
 .rozhinLogo{
   width: 100px;
   height: 100px;
@@ -20,7 +25,7 @@
   font-size: 32px;
   color: white;
   margin: 0 40px;
-  padding-bottom: 20vh;
+  padding-bottom: 40vh;
 }
 .aboutMe{
   color: white;
@@ -40,7 +45,9 @@
 .project-card{
   margin-top: 80px;
 }
-
+.project-card *{
+  text-align: left;
+}
 .project-body{
   margin: 0 40px;
   color: white;
@@ -64,46 +71,34 @@
   box-shadow: 0 0 10px white;
 
 }
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.contact-me{
+  padding-bottom: 20vh;
+  color: white;
+  display: flex;
+  margin: 0 40px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+form input{
+  background-color: rgb(28, 28, 41);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#In-message{
+  height: 50px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form button{
+  padding: 18px 50px;
+  border-radius: 10px;
+  height: 75%;
+  width: 95%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
- */
