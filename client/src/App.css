@@ -7,6 +7,13 @@
 
 .rozhin{
   width: 30%;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: all 300ms;
+}
+.rozhin:hover{
+  border-radius: 30px;
+  transform: scale(1.1);
 }
 
 .home{
@@ -16,8 +23,19 @@
   padding-bottom: 20vh;
 }
 .aboutMe{
-  color: chocolate;
+  color: white;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 40px;
+}
+.aboutMe a{
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 30px;
 }
 .project-card{
   margin-top: 80px;
